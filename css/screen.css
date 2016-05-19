@@ -1,0 +1,91 @@
+/*
+Error: Undefined variable: "$legacy-support-for-ie6".
+        on line 75 of /home/archana/Jekyll/cactus-jekyll-theme-master/scss/site/_normalize.scss
+        from line 10 of /home/archana/Jekyll/cactus-jekyll-theme-master/scss/screen.scss
+
+70: 
+71: h1, h2 {
+72:   color: #000;
+73:   line-height: 1.1;
+74: }
+75: 
+76: h3 {
+77:   color: #333;
+78:   font-weight: 600;
+79:   font-size: 18px;
+80:   margin: 12px 0;
+
+Backtrace:
+/home/archana/Jekyll/cactus-jekyll-theme-master/scss/site/_normalize.scss:75
+/home/archana/Jekyll/cactus-jekyll-theme-master/scss/screen.scss:10
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/operation.rb:64:in `_perform'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:299:in `visit_if'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `map'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/home/archana/.rvm/gems/ruby-2.3.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/home/archana/.rvm/gems/ruby-2.3.0/bin/compass:23:in `load'
+/home/archana/.rvm/gems/ruby-2.3.0/bin/compass:23:in `<main>'
+/home/archana/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `eval'
+/home/archana/.rvm/gems/ruby-2.3.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$legacy-support-for-ie6\".\A         on line 75 of /home/archana/Jekyll/cactus-jekyll-theme-master/scss/site/_normalize.scss\A         from line 10 of /home/archana/Jekyll/cactus-jekyll-theme-master/scss/screen.scss\A \A 70: \A 71: h1, h2 {\A 72:   color: #000;\A 73:   line-height: 1.1;\A 74: }\A 75: \A 76: h3 {\A 77:   color: #333;\A 78:   font-weight: 600;\A 79:   font-size: 18px;\A 80:   margin: 12px 0;"; }
